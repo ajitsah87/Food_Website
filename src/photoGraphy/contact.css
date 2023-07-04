@@ -1,0 +1,23 @@
+/* *{
+    border:1px dotted ;
+} */
+.c-wrapper{
+    margin: 0 5rem;
+}
+.c-wrapper h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.c-contant{
+ background-color: #f0f3f6;
+   display: flex;
+}
+.c-info{
+    margin: 5.75rem 9.75rem 6rem 9rem;
+   
+}
+
+  img{
+width: 42.5rem;
+height: 69rem;
+}

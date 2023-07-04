@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+ 
+
+.i-wrapper{
+    background-image: url(/public/img/i-image.png);
+    min-height: 100vh;
+    max-width: 1500px;
+    margin: 0rem auto 0rem auto;
+    display: grid;
+    place-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(23, 23, 23, 0.525);
+    margin-inline: 6rem;
+    padding-top: 2rem;
+  
+   
+    
+}
+.i-center{
+    color: #ffffff;
+}
+
+.i-title{
+font-size: 3rem;
+font-family: 'Cinzel', serif; 
+line-height: 0.8;
+
+
+}
+.i-para{
+    
+    font-size: 1.6rem;
+}
+.i-btn{
+    border: none;
+    color:white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 12px 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #152438;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: .7rem;
+    margin-left: 9.9rem;
+}
+.i-btn:hover{
+    background-color: white;
+    color: #152438; 
+  }

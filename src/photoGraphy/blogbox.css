@@ -1,0 +1,76 @@
+
+.para{
+    font-family: 'Roboto', sans-serif;
+}
+.the-h{
+  font-family: 'Cinzel', serif;
+
+}
+
+.b-body{
+    position: relative;
+}
+  .middle{
+    position:absolute;
+    right: 5rem;
+    top: 1.4rem;
+  }
+  
+  .input{
+    width:60px;
+    height:60px;
+    background:none;
+    border-radius:50px;
+    border:4px solid black;
+    box-sizing:border-box;
+    outline:none;
+    transition: width 0.4s ease-in-out, border-radius 0.8s ease-in-out,padding 0.2s;
+    transition-delay:0.4s;
+    color:black;
+    font-size:20px;
+  }
+  .inclicked{
+    width:360px;
+    border-radius:0;
+    padding:0 15px;
+    padding-right:40px;
+  }
+  .b-bts{
+    position:absolute;
+    width:60px;
+    height:60px;
+    top:0;
+    right:0;
+    box-sizing:border-box;
+    background:none;
+    border:none;
+    outline:none;
+    cursor:pointer;
+  }
+  .b-bts::before{
+    content:"";
+    width:4px;
+    height:25px;
+    background:black;
+    position:absolute;
+    transform:rotate(-45deg);
+    bottom:-16px;
+    right:-6px;
+    transition:0.3s;
+  }
+  .close::before,.close::after{
+    content:"";
+    width:4px;
+    height:34px;
+    background:black;
+    position:absolute;
+    bottom:12px;
+    right:28px;
+  }
+  .close::before{
+    transform:rotate(-45deg);
+  }
+  .close::after{
+    transform:rotate(45deg);
+  }
+  
